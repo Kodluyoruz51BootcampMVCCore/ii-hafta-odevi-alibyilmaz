@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m6eVxfu3ZZSE22j3xWDKpu7fWebkyAqu3oiKRqPXbq0szz4M8jRfhOBGKZv/4AVphm2q2zD3Yy4RbbZbp8qREw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alibu\\source\\repos\\ii-hafta-odevi-alibyilmaz\\Login3\\Login3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alibu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
