@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alibu\\Source\\Repos\\ii-hafta-odevi-alibyilmaz\\Login1\\Login1.csproj": {}
+    "C:\\Users\\alibu\\source\\repos\\ii-hafta-odevi-alibyilmaz\\Login2\\Login2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alibu\\Source\\Repos\\ii-hafta-odevi-alibyilmaz\\Login1\\Login1.csproj": {
+    "C:\\Users\\alibu\\source\\repos\\ii-hafta-odevi-alibyilmaz\\Login2\\Login2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alibu\\Source\\Repos\\ii-hafta-odevi-alibyilmaz\\Login1\\Login1.csproj",
-        "projectName": "Login1",
-        "projectPath": "C:\\Users\\alibu\\Source\\Repos\\ii-hafta-odevi-alibyilmaz\\Login1\\Login1.csproj",
+        "projectUniqueName": "C:\\Users\\alibu\\source\\repos\\ii-hafta-odevi-alibyilmaz\\Login2\\Login2.csproj",
+        "projectName": "Login2",
+        "projectPath": "C:\\Users\\alibu\\source\\repos\\ii-hafta-odevi-alibyilmaz\\Login2\\Login2.csproj",
         "packagesPath": "C:\\Users\\alibu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alibu\\Source\\Repos\\ii-hafta-odevi-alibyilmaz\\Login1\\obj\\",
+        "outputPath": "C:\\Users\\alibu\\source\\repos\\ii-hafta-odevi-alibyilmaz\\Login2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alibu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,23 +38,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
               "target": "Package",
               "version": "[3.1.4, )"
             }
