@@ -1,6 +1,5 @@
 # II Hafta (6-7 Haziran) Ödevleri 
 
-## 6 Haziran Ödevleri:
 #### Github'ın Gitflow'u ile diğer yaklaşımları arasındaki fark nedir? ( gitflow vs ..) 
 #### repo içinde github vs. gitflow https://github.com/Kodluyoruz51BootcampMVCCore/ii-hafta-odevi-alibyilmaz/blob/master/gthubflow-vs-gitflow.md
 
@@ -29,10 +28,9 @@ src: https://stackoverflow.com/a/58608571
 
 #### Şirketin tüm yan ürünleri ve open source repoları : https://volosoft.com/open-source 
 
-#### başlandı [ ] hackerRank.com --> [30 Days Of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) 
+#### başlandı hackerRank.com --> [30 Days Of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) 
 
-## 7 Haziran Ödevleri:
-#### - [ ] Razor Pages Nedir?
+#### Razor Pages Nedir?
 ASP.NET Core Razor Pages is a page-focused framework for building dynamic, data-driven web sites with clean separation of concerns. Based on the latest version of ASP.NET from Microsoft - ASP.NET Core, Razor Pages supports cross platform development and can be deployed to Windows, Unix and Mac operating systems.
 
 The Razor Pages framework is lightweight and very flexible. It provides the developer with full control over rendered HTML. The framework is built on top of ASP.NET Core MVC, and is enabled by default when MVC is enabled in a .NET Core application. Razor Pages is the recommended framework for cross-platform server-side HTML generation on .NET Core. You do not need to have any knowledge or understanding of MVC to work with Razor Pages.
@@ -48,7 +46,6 @@ src: https://www.learnrazorpages.com/#:~:text=link,Unix%20and%20Mac%20operating%
 #### repo içinde  -  Windows Authentication https://github.com/Kodluyoruz51BootcampMVCCore/ii-hafta-odevi-alibyilmaz/tree/master/Login3
 
 #### Ayarlardaki Output kısmındaki Console Application nedir? diğerleri arasında fark nedir? [Ders Akışındaki 6. Madde'yi inceleyin.] ( araştırma ödev verildi ).
-0
 
 #### Console applications 
 Console apps are light weight programs run inside the command prompt (DOS) window. They are commonly used for test applications.
