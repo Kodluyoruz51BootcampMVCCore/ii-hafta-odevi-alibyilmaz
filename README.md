@@ -55,7 +55,12 @@ Console-based applications include Alpine (an e-mail client), cmus (an audio pla
 Windows Applications are form based standard Windows desktop applications for common day to day tasks. Microsoft word is an example of a Windows application.
 src: https://stackoverflow.com/a/58160465
 
-- [ ] c# json serialize / deserialize
+#### c# json serialize / deserialize
+serialize ya da serialization, bir datayı kolayca ulaşılabilir hala getirmek ya da bir datayı platform bağımsız hale getirmektir(json,xml,binary).
+Bu durumda deserialize ise: Ulaşılabilir hale gelmiş datayı tekrardan hangi dilde yazıyorsak o dildeki objeye çevirmektir. 
+src: https://medium.com/@emrebalcii94/messagepack-nedir-serialize-deserialize-y%C3%B6ntemleri-neden-%C3%B6nemlidir-836a5f85b7b8
+Microsoft'un kod örneklerinin de bulunduğu konuyla alakalı bir dökümanı: https://docs.microsoft.com/tr-tr/dotnet/standard/serialization/system-text-json-how-to 
+
 - [ ] MVC vs MVVM
    - [ ] MVP vs MVW vs MVU Pattern arasındaki farkı araştır
    - [ ] Model-View-Update (MVU) nedir?
