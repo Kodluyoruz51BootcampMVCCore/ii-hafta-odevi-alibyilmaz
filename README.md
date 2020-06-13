@@ -1,12 +1,32 @@
 # II Hafta (6-7 Haziran) Ödevleri 
 
 ## 6 Haziran Ödevleri:
-- [ ] Github'ın Gitflow'u ile diğer yaklaşımları arasındaki fark nedir? ( gitflow vs ..)
-- [ ] [Git and GitHub with Briana Swift](https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4) Youtube Listesi incelensin. (11 Video)
+- [ ] Github'ın Gitflow'u ile diğer yaklaşımları arasındaki fark nedir? ( gitflow vs ..) 
+https://github.com/Kodluyoruz51BootcampMVCCore/ii-hafta-odevi-alibyilmaz/blob/master/gthubflow-vs-gitflow.md
+- [ ] [Git and GitHub with Briana Swift](https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4) Youtube Listesi incelensin. (11 Video) 
 - [ ] Merge pull request
     - [ ] Create a merge commit
     - [ ] Squash and merge 
     - [ ] Rebase and merge altında ne fark var (Ödev)
+ ### Answer: 
+ Now we have 3 options to merge changes of feature branch into master branch:
+
+#### Merge commits
+Will keep all commits history of the feature branch and move them into the master branch
+Will add extra dummy commit.
+
+#### Rebase and merge
+Will append all commits history of the feature branch in the front of the master branch
+Will NOT add extra dummy commit.
+
+#### Squash and merge
+Will group all feature branch commits into one commit then append it in the front of the master branch
+Will add extra dummy commit.
+(https://stackoverflow.com/a/58608571)
+
+You can find below how the master branch will look after each one of them. 
+
+
 - [ ] issue ve #pull request de id ler neden artıyor farklı sekmeler olmasına rağmen?
 - [ ] [Ramp up on Git and GitHub](https://lab.github.com/githubtraining/paths/ramp-up-on-git-and-github) (ödev)
 - [ ] Aspnetboilerplate ve yan ürünler araştırması. [AspNet Boilerplate - Web Application Framework](https://aspnetboilerplate.com/)
