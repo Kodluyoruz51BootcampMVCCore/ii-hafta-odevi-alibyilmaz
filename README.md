@@ -61,6 +61,24 @@ Bu durumda deserialize ise: Ulaşılabilir hale gelmiş datayı tekrardan hangi 
 src: https://medium.com/@emrebalcii94/messagepack-nedir-serialize-deserialize-y%C3%B6ntemleri-neden-%C3%B6nemlidir-836a5f85b7b8
 Microsoft'un kod örneklerinin de bulunduğu konuyla alakalı bir dökümanı: https://docs.microsoft.com/tr-tr/dotnet/standard/serialization/system-text-json-how-to 
 
-- [ ] MVC vs MVVM
-   - [ ] MVP vs MVW vs MVU Pattern arasındaki farkı araştır
-   - [ ] Model-View-Update (MVU) nedir?
+#### MVC vs MVVM, MVP vs MVW vs MVU Pattern arasındaki farkı araştır
+
+#### MVC
+MVC'nin en büyük avantajı sorumlulukları Model,View ve Controller’a temiz bir şekilde dağıtmasıdır. Controller’lar uygulamanın akışını kontrol ederler, nerede neyin nasıl yapılmasına gerektiğine karar verirler. View sadece kendisinin nasıl update olacağına ilişkin business’ı içerir, Model’i oluşturur ve kullanıcıya gösterir. View uygulamayla ilgili hiç bir logic içermediğinden dolayı farklı platformlar (Windows, Web) için aynı controller’ı kullanan birden fazla View olabilir (Daha öncede dediğim gibi her zaman okadar kolay olmayabiliyor).
+Ama dezavantajlarıda yok değil. View ile Model arasındaki observer ilişkisi ilk bakışta karışık gelebilir, View’in güncellenmesi için, Controller’ın Model’i güncellemesi gerek ki Model’de değiştiğini View’e bildirebilsin. Ayrıca .Net gibi modern programlama ortamları User Inputlar’ın eventlerini zaten kendileri handle ediyorlar, mesela buton’a tıklandığıda veya textbox’ın text’i değiştiğindeki eventler gibi.yapabiliyor vs. 
+#### MVP (Model-View-Presenter)
+MVP Pattern’i aslında MVC’den evrilmiş bir pattern, sadece bağımlılıklar değişiyor ve Controller’ın yerine Prenseter (ki bu durumda kendisine hala Controller denebiliyor) geliyor.
+MVVM Pattern’i hakkında bilgi vermeden önce Presentation Model hakkında bilgi vermek istiyorum. Çünkü MVVM dediğimiz şeye; WPF ve Silverlight için Prensentation Model diyebiliriz.
+src: https://denizirgin.com/mvc-mvp-ve-mvvm-patternleri-aa7d1011daff
+
+#### MVVM PATTERN
+Model - View - ViewModel is introduced by Microsoft in order to simplify the event-based implementation in the user interface. MVVM is used to extract the state and behaviour of view which allows us to separate the UI form business logic. In the MVVM the input begins with the view, not the viewModel. MVVM supports two- way data binding between view and the ViewModel. In MVVM the view holds the reference to the view Model. The ViewModel has no data about the view. In MVVM the view has no idea about the model because the view knows its model is the ViewModel.
+
+src: https://www.eidk.org/diffrence-between-mvp-mvc-mvvm.html
+
+#### Using a Model-View-Update (MVU)
+-like approach with WebSharper UI. As you will see, WebSharper UI can implement a number of different styles of reactive UI programming easily.
+Model - the state.
+View - the presentation (HTML) of the state.
+Update - describes how to update the state.
+src: https://dzone.com/articles/part-2-model-view-update-mvu-style-apps-with-websh
